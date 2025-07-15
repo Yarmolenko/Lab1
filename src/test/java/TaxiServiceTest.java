@@ -6,7 +6,7 @@ public class TaxiServiceTest {
 
     @Test
     public void calculateFareTest(){
-        double distanceTrip = 10.0;
+        double distanceTrip = 18.0;
         double timeInMinutes = 15.0;
 
         double value = TaxiService.calculateFare(distanceTrip, timeInMinutes);
